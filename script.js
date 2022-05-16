@@ -3,8 +3,8 @@ var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 var randomNumber2 = Math.floor(Math.random() * 6) + 1;
 
 //Changes dice image 
-document.querySelector("img").setAttribute("src", "images/dice" + randomNumber1 + ".png");
-document.querySelector("img.img2").setAttribute("src", "images/dice" + randomNumber2 + ".png");
+document.querySelector("img").setAttribute("src", "/images/dice" + randomNumber1 + ".png");
+document.querySelector("img.img2").setAttribute("src", "/images/dice" + randomNumber2 + ".png");
 
 //Shows which player is the winner, or if it is a draw
 function diceWinner(player1, player2) {
